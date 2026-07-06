@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import ProfileCard from "../components/ProfileCard";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import ProfileCard from "../../components/ProfileCard";
 
 export default function Leadership() {
   return (
