@@ -25,6 +25,13 @@ import erk3Img from "../app/images/imgs-collection/menprods/erk3.jpeg";
 
 // --- import for women ---
 
+import dg1Img from "../app/images/imgs-collection/womenprods/dgred.jpeg";
+
+import sp001 from "../app/images/imgs-collection/womenprods/sp001.png";
+import spA001 from "../app/images/imgs-collection/womenprods/spA001.png";
+import sp003y1 from "../app/images/imgs-collection/womenprods/sp003y1.png";
+import sp002p1 from "../app/images/imgs-collection/womenprods/sp002p1.png";
+
 import har1Img from "../app/images/imgs-collection/womenprods/bagprods/har1.jpeg";
 import har2Img from "../app/images/imgs-collection/womenprods/bagprods/har2.jpeg";
 import har3Img from "../app/images/imgs-collection/womenprods/bagprods/har3.jpeg";
@@ -116,12 +123,47 @@ export const products = [
     },
 
     // --- WOMEN ---
+    // ---  heels---
+
+    {
+        id: "women-heels-2",
+        name: "Shoe Puzzle Concept 002 Pink",
+        price: "UGX 200,000",
+        image: sp002p1,
+        images: null,
+        category: "women",
+        subcategory: "Heels",
+        sizes: [37, 38, 39, 40],
+        available: "In Stock"
+    },
+    {
+        id: "women-heels-3",
+        name: "Shoe Puzzle Concept 003 Yellow",
+        price: "UGX 200,000",
+        image: sp003y1,
+        images: [sp003y1],
+        category: "women",
+        subcategory: "Heels",
+        sizes: [37, 38, 39, 40],
+        available: "In Stock"
+    },
     {
         id: "women-heels-1",
-        name: "Stiletto Classic",
-        price: "UGX 195,000",
-        image: "[INSERT IMAGE PATH]",
-        images: [],
+        name: "Dolce & Gabana Red Heels",
+        price: "UGX 350,000",
+        image: dg1Img,
+        images: null,
+        category: "women",
+        subcategory: "Heels",
+        sizes: [38, 39],
+        available: "In Stock"
+    },
+    {
+        id: "women-heels-4",
+        name: "Shoe Puzzle Concept 001 Heels Black",
+        price: "UGX 200,000",
+        image: sp001,
+        images: [sp001, spA001],
         category: "women",
         subcategory: "Heels",
         sizes: [36, 37, 38, 39, 40],

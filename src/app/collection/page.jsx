@@ -4,7 +4,7 @@ import Link from "next/link";
 
 
 // import for men
-import wik1Img from "../images/imgs-collection/menprods/wik1.jpeg";
+import erk1Img from "../images/imgs-collection/menprods/erk1.jpeg";
 // import for women
 import har1Img from "../images/imgs-collection/womenprods/bagprods/har1.jpeg";
 // import for care
@@ -28,7 +28,7 @@ export default function Collection() {
       title: "Men",
       description: "Elevate your step with premium sneakers, sandals, and formal footwear.",
       link: "/collection/men",
-      image: null,
+      image: erk1Img,
       bgColor: "bg-neutral-50"
     },
     {
@@ -54,7 +54,7 @@ export default function Collection() {
       <Header />
       <main className="px-6 py-16 max-w-6xl mx-auto min-h-[75vh]">
         <div className="text-center mb-16">
-           <h1 className="text-4xl font-light tracking-widest mb-4">COLLECTION</h1>
+          <h1 className="text-4xl font-light tracking-widest mb-4">COLLECTION</h1>
           <p className="text-neutral-500 text-sm tracking-wider max-w-md mx-auto">
             Explore our curated selections of premium footwear, bags, and luxury care products.
           </p>
